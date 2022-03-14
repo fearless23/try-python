@@ -4,7 +4,6 @@ tuple = (1,2,3)
 landmarks = tuple[1]
 print(landmarks)
 
-# cannot assign in tuple
+# cannot re-assign in tuple
+# i.e tuple by default is im-mutable
 # tuple[0] = 76 # error
-
-# NEXT: Immutability
